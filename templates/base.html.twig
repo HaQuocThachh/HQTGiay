@@ -36,12 +36,13 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                               {# <li><a href="{{ path('product_create') }}">Add Product</a></li>
+                {#<li class="active"><a href="#">Home</a></li>
+                                <li><a href="{{ path('product_create') }}">Add Product</a></li>
                 <li><a href="#">Add Product</a></li>#}
                 <li><a href="{{ path('product_create') }}">Add Product</a></li>
                 <li><a href="{{ path('create_genre') }}">Add Genre</a></li>
                 <li><a href="{{ path('create_category') }}">Add Category</a></li>
+                <li><a href="{{ path('app_contact') }}">Contact</a></li>
             </ul>
 
         </div><!--/.nav-collapse -->
@@ -85,5 +86,5 @@
 {% block javascripts %}{% endblock %}
 
 </body>
-<li class="active"><a href="{{ path('app_contact') }}">Contact</a></li>
+
 </html>

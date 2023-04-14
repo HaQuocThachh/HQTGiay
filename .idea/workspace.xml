@@ -18,6 +18,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="PhpServers">
     <servers>
@@ -165,7 +166,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml.dist" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -220,7 +221,7 @@
       <workItem from="1681442201433" duration="1685000" />
       <workItem from="1681449526178" duration="241000" />
       <workItem from="1681449771025" duration="12000" />
-      <workItem from="1681449874417" duration="5325000" />
+      <workItem from="1681449874417" duration="9054000" />
     </task>
     <servers />
   </component>
@@ -280,14 +281,18 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="570" y="247" key="NewPhpClassDialog/0.0.1536.864@0.0.1536.864" timestamp="1679756060867" />
-    <state x="555" y="75" key="SettingsEditor" timestamp="1681449672412">
+    <state x="555" y="75" key="SettingsEditor" timestamp="1681455533456">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="555" y="75" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1681449672412" />
+    <state x="555" y="75" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1681455533456" />
     <state x="465" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1681449877467">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="465" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1681449877467" />
+    <state x="578" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1681462466398">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="578" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1681462466398" />
     <state x="41" y="200" key="run.anything.popup" timestamp="1679758112033">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

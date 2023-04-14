@@ -16,7 +16,7 @@ use Symfony\Component\String\Slugger\SluggerInterface;
 class HomeController extends AbstractController
 {
     /**
-     * @Route("/product_view/", name="view_product")
+     * @Route("/product_view/{id}", name="view_product")
      */
     public function Show(ManagerRegistry $doctrine, Request $request, SluggerInterface $slugger, int $id, Product $products): Response
     {

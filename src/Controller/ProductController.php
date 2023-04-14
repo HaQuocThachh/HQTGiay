@@ -109,7 +109,7 @@ class ProductController extends AbstractController
     /**
      * @Route("/edit/{id}", name="product_edit")
      */
-    public function editAction(ManagerRegistry $doctrine, int $id, Request $request): Response
+    public function editAction(ManagerRegistry $doctrine, int $id, Request $request, SluggerInterface $slugger): Response
     {
         $entitymanager = $doctrine->getManager();
         $products = $entitymanager->getRepository(Product::class)->find($id);
@@ -117,6 +117,29 @@ class ProductController extends AbstractController
 
         $form->handleRequest($request);
         if ($form->isSubmitted() && $form->isValid()) {
+            /** @var UploadedFile $uploadedFile */
+            $uploadedFile = $form->get('Image')->getData();
+            if ($uploadedFile) {
+                $originalFilename = pathinfo($uploadedFile->getClientOriginalName(), PATHINFO_FILENAME);
+                // this is needed to safely include the file name as part of the URL
+                $safeFilename = $slugger->slug($originalFilename);
+                $newFilename = $safeFilename . '-' . uniqid() . '.' . $uploadedFile->guessExtension();
+
+                // Move the file to the directory where image are stored
+                try {
+                    $uploadedFile->move(
+                        (string)$this -> getParameter('images_directory') ,
+                        $newFilename
+                    );
+                } catch (FileException $e) {
+                    $this->addFlash(
+                        'error',
+                        'Cannot Upload'
+                    );
+                    // ... handle exception if something happens during file upload
+                }
+            }
+                $products->setImage($newFilename);
             $entitymanager = $doctrine->getManager();
             $entitymanager->persist($products);
             $entitymanager->flush();
