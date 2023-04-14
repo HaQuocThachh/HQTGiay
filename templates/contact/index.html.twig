@@ -1,0 +1,53 @@
+{% block body %}
+    <style type="text/css">
+        input[type=text], select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #00ff04;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type=submit] {
+            width: 100%;
+            background-color: #e0ff6c;
+            color: #00ff32;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: #96ff52;
+        }
+
+        div {
+            border-radius: 5px;
+            background-color: #00d3f2;
+            padding: 20px;
+        }
+    </style>
+    <body>
+    <h3>Contact</h3>
+
+    <div>
+        <form action="/action_page.php">
+            <label for="fname">Your Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="My name...">
+
+            <label for="lname">Your mail address</label>
+            <input type="text" id="lname" name="lastname" placeholder="My mail address...">
+
+            <label for="Message">Message</label>
+            <input type="text" id="Message" name="Message" placeholder="My Message...">
+            <button type="submit"><a href="{{ path('app_contact') }}">Submit</a></button>
+        </form>
+    </div>
+
+    </body>
+    </html>
+{% endblock %}
