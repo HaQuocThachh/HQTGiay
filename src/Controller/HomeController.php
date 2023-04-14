@@ -29,7 +29,5 @@ class HomeController extends AbstractController
             'genre' => $genre,
             'category' => $category,
         ));
-
     }
-
 }

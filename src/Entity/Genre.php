@@ -49,15 +49,9 @@ class Genre
     /**
      * @return Collection<int, Product>
      */
-    public function getProducts(): ?string
+    public function getProducts(): Collection
     {
-        return $this->Products;
-    }
-    public function setProducts(string $products): self
-    {
-        $this->Products = $products;
-
-        return $this;
+        return $this->products;
     }
 
     public function addProduct(Product $product): self

@@ -17,10 +17,9 @@
 
     <ul class="nav nav-tabs">
         {% for genre in genres %}
-            <li class="nav-item">
-                <a href="{{ path('productByGenre',{'id':genre.id}) }}"
-                   class="nav-link active">{{ genre.GenreName }}</a>
-            </li>
+            <div class="nav-item">
+                <a href="{{ path('productByGenre',{'id':genre.id}) }}" class="nav-link active">{{ genre.GenreName }}</a>
+            </div>
         {% endfor %}
     </ul>
     <div class="bs-example" data-example-id="striped-table">

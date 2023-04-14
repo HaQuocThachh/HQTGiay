@@ -27,12 +27,12 @@
 
                             <label for="password">Password:</label>
                             <input type="password" id="password" name="_password"/>
-
-                            {#<label>
+                            <br>
+                            <label>
                                 <input type="checkbox" name="_remember_me" checked/>
                                 Keep me logged in
-                            </label>#}
-
+                            </label>
+                            <br>
                             <input type="hidden" name="_csrf_token" value="{{ csrf_token('authenticate') }}">
                             <input type="hidden" name="go_to" value="{{ path('product_list') }}"/>
                             <input type="hidden" name="back_to" value="{{ path('app_login') }}"/>
@@ -40,7 +40,7 @@
                             {# If you want to control the URL the user is redirected to on success
                             <input type="hidden" name="_target_path" value="/account"/> #}
 
-                            <button type="submit" class="btn-primary">login</button>
+                            <button type="submit" class="btn-primary">Login</button>
                         </form>
                     </div>
                 </div>

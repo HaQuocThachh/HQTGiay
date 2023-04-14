@@ -17,6 +17,7 @@
     <favorites_list name="HQTGiay" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
@@ -166,7 +167,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml.dist" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -221,7 +222,7 @@
       <workItem from="1681442201433" duration="1685000" />
       <workItem from="1681449526178" duration="241000" />
       <workItem from="1681449771025" duration="12000" />
-      <workItem from="1681449874417" duration="9289000" />
+      <workItem from="1681449874417" duration="13969000" />
     </task>
     <servers />
   </component>
@@ -237,6 +238,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="361" y="91" key="#Inspections/0.0.1536.864@0.0.1536.864" timestamp="1680959164851" />
+    <state x="722" y="94" key="#Notifications" timestamp="1681486079066">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="722" y="94" key="#Notifications/0.0.1536.864@0.0.1536.864" timestamp="1681486079066" />
     <state x="348" y="87" key="#Test_Frameworks" timestamp="1679746676007">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -257,10 +262,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="452" y="87" width="645" height="689" key="#phpunit.xml.dist/0.0.1536.864@0.0.1536.864" timestamp="1679722383800" />
-    <state x="490" y="281" key="FileChooserDialogImpl" timestamp="1681449768196">
+    <state x="490" y="281" key="FileChooserDialogImpl" timestamp="1681486431676">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="490" y="281" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1681449768196" />
+    <state x="490" y="281" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1681486431676" />
     <state width="1493" height="283" key="GridCell.Tab.0.bottom" timestamp="1680252726582">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -281,10 +286,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="570" y="247" key="NewPhpClassDialog/0.0.1536.864@0.0.1536.864" timestamp="1679756060867" />
-    <state x="555" y="75" key="SettingsEditor" timestamp="1681455533456">
+    <state x="435" y="46" key="SettingsEditor" timestamp="1681486438781">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="555" y="75" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1681455533456" />
+    <state x="435" y="46" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1681486438781" />
     <state x="465" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1681449877467">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
