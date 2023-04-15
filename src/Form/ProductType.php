@@ -31,7 +31,6 @@ class ProductType extends AbstractType
                 'mapped'=> false,
                 'required'=> false,
                 'constraints'=>[
-
                 ],
             ])
 
